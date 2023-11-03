@@ -17,6 +17,7 @@ public class UICamera : MonoBehaviour
         
         mainCam = mainCam.GetComponent<Camera>();
         mainCam.enabled = true;
+        
        
         optionCam= optionCam.GetComponent<Camera>();
         optionCam.enabled = false;
